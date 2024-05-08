@@ -18,18 +18,15 @@ $(document).ready(function () {
           slidesToShow: 1,
         },
       },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ],
   });
   $(".phone-number-input").inputmask({
     mask: "+7 (999) 999 - 99 - 99",
   });
-  // $(".popup").magnificPopup({
-  //   type: "inline",
-  //   mainClass: "mfp-fade",
-  // });
+  $(".popup").magnificPopup({
+    type: "inline",
+    mainClass: "mfp-fade",
+  });
 
   $(".back").smoothScroll({
     speed: 1000,
