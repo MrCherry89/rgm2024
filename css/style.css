@@ -213,13 +213,15 @@ a:focus {
   }
 }
 #news-popup .popup-body .popup-info .text-wrap .scroll::-webkit-scrollbar {
-  width: 3;
+  width: 6px;
+  border-radius: 50px;
 }
 #news-popup .popup-body .popup-info .text-wrap .scroll::-webkit-scrollbar-track {
-  background: #707070;
+  background: white;
 }
 #news-popup .popup-body .popup-info .text-wrap .scroll::-webkit-scrollbar-thumb {
-  background: #707070;
+  background: #d9d9d9;
+  border-radius: 50px;
 }
 #news-popup .popup-body .popup-info .text-wrap .scroll p {
   font-size: 24px;
